@@ -19,7 +19,7 @@ body {
 
 .header_text {
     color: white;
-    font-size: 5vw; /* Skalowanie na podstawie szerokości okna */
+    font-size: 3vw; /* Skalowanie na podstawie szerokości okna */
     text-shadow: black 2px 3px 5px;
     text-align: center;
     margin: 20px;
