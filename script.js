@@ -10,12 +10,11 @@ var b = document.querySelector("#noButton");
 b.addEventListener("mouseover", change);
 
 function change() {
-    const container = document.getElementById("container");
     const btn = document.getElementById("noButton");
 
     // Pobranie wymiarów dostępnej przestrzeni
-    const containerWidth = container.offsetWidth;
-    const containerHeight = container.offsetHeight;
+    const containerWidth = window.innerWidth;
+    const containerHeight = window.innerHeight;
     const btnWidth = btn.offsetWidth;
     const btnHeight = btn.offsetHeight;
 
